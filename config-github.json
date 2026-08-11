@@ -1,0 +1,185 @@
+{
+    "debug_mode": false,
+    "clientes": {
+        "CLIENTE_A": {
+            "nombre": "Cliente A",
+            "destinos": [
+                "Destino A1",
+                "Destino A2"
+            ]
+        },
+        "CLIENTE_B": {
+            "nombre": "Cliente B",
+            "destinos": [
+                "Destino B1",
+                "Destino B2"
+            ]
+        },
+        "CLIENTE_C": {
+            "nombre": "Cliente C",
+            "destinos": [
+                "Destino C1",
+                "Destino C2"
+            ]
+        }
+    },
+    "partes": {
+        "PARTE-001": {
+            "complemento": "COMP1",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-002": {
+            "complemento": "COMP2",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-003": {
+            "complemento": "",
+            "cliente": "CLIENTE_B",
+            "posicion": "inicio"
+        },
+        "PARTE-004": {
+            "complemento": "COMP4",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-005": {
+            "complemento": "COMP5",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-006": {
+            "complemento": "COMP6",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-007": {
+            "complemento": "COMP7",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-008": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-009": {
+            "complemento": "COMP9",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-010": {
+            "complemento": "COMP10",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-011": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-012": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-013": {
+            "complemento": "COMP13",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-014": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-015": {
+            "complemento": "COMP15",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-016": {
+            "complemento": "COMP16",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-017": {
+            "complemento": "COMP17",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-018": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-019": {
+            "complemento": "COMP19",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-020": {
+            "complemento": "COMP20",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-021": {
+            "complemento": "COMP21",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-022": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-023": {
+            "complemento": "COMP23",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-024": {
+            "complemento": "COMP24",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-025": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-026": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-027": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-028": {
+            "complemento": "1",
+            "cliente": "CLIENTE_C",
+            "posicion": "final"
+        },
+        "PARTE-029": {
+            "complemento": "COMP29",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-030": {
+            "complemento": "COMP30",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        },
+        "PARTE-031": {
+            "complemento": "COMP31",
+            "cliente": "CLIENTE_A",
+            "posicion": "inicio"
+        }
+    },
+    "ultimo_cliente": "",
+    "impresora": "ZDesigner ZM400 300 dpi (ZPL)"
+}
