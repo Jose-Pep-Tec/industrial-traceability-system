@@ -1,4 +1,4 @@
-# Production Control System
+# industrial-traceability-system
 
 A comprehensive desktop application for manufacturing production management, order tracking, and label printing.
 
