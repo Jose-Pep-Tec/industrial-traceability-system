@@ -1,4 +1,4 @@
-# industrial-traceability-system
+# Production Control System
 
 A comprehensive desktop application for manufacturing production management, order tracking, and label printing.
 
@@ -47,35 +47,29 @@ This system provides a complete solution for managing production workflows, incl
 
 ## Requirements
 
-### System Requirements
-- **Operating System**: Windows 7 or later (for Zebra printer support)
-- **Python**: Version 3.5 or higher
+### Python Version
+**CRITICAL**: This application requires **Python 3.5 ONLY**.
 
-### Python Dependencies
+The code does NOT work with Python 3.6 or higher. It does not use f-strings or other Python 3.6+ features.
+
+### Operating System
+- Windows 7 or later (for Zebra printer support)
+
+### Dependencies
 
 | Library | Version | Purpose |
 |---------|---------|---------|
-| tkinter | Built-in | GUI framework |
-| sqlite3 | Built-in | Database management |
-| json | Built-in | Configuration file handling |
-| csv | Built-in | Report export |
-| datetime | Built-in | Date and time handling |
-| os | Built-in | File system operations |
-| re | Built-in | Regular expressions |
-| PIL (Pillow) | 5.0.0+ | Image processing for label preview |
-| python-barcode | 0.13.0+ | Barcode generation |
-| pywin32 | 223+ | Windows printer API |
-
-### Hardware Requirements
-- **Minimum RAM**: 512 MB
-- **Disk Space**: 50 MB
-- **Display**: 1024 x 768 resolution
-- **Printer**: Zebra compatible label printer (ZPL support)
+| Python | 3.5 ONLY | Core interpreter |
+| Pillow | 5.0.0 | Image processing for label preview |
+| python-barcode | 0.13.0 | Barcode generation |
+| pywin32 | 223 | Windows printer API |
 
 ## Installation
 
-### 1. Clone the Repository
+### 1. Python Version
+
+**IMPORTANT**: Make sure you have Python 3.5 installed:
 
 ```bash
-git clone https://github.com/yourusername/production-control-system.git
-cd production-control-system
+python --version
+# Must output: Python 3.5.x
