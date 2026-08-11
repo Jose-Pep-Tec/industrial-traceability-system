@@ -1,0 +1,12 @@
+# Python 3.5 ONLY - Legacy System Requirement
+# 
+# This application is specifically designed for Python 3.5 due to legacy system constraints.
+# The application is distributed as a self-contained folder (embedded Python distribution)
+# to avoid interfering with the host operating system's Python installation.
+#
+# Using a different Python version may cause compatibility issues with the embedded
+# environment and the Windows OEM system where this application runs.
+
+Pillow==5.0.0
+python-barcode==0.13.0
+pywin32==223
